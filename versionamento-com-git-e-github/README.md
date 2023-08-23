@@ -24,19 +24,19 @@ Existem várias ferramentas de versionamento de código no mercado. A que mais s
 ```
 git init - incia um reposiótio git, tornando a pasta seu reposótorio local;
 
+git clone - clona um reposiótio remoto para sua maquina;
+
 git add  - adiona as alterações ao repositório;
 
 git commit - commita os arquivos, salvando as alterações no repositório local;
+
+git commit —amend -m ‘nova mensage' - altera a mensagem do último commmit
 
 git push - envia as alterações para o repositório remoto;
 
 git pull - puxa as alterações do reposito remoto para o local;
 
-git clone - clona um reposiótio remoto para sua maquina;
-
-git restores nome-do-arquivo - restaura o arquivo ao último status salvo
-
-git commit —amend -m ‘nova mensage' - altera a mensagem do último commmit
+git restore nome-do-arquivo - restaura o arquivo ao último status salvo
 
 git checkout -b nome-da-branch - criar uma nova branch;
 

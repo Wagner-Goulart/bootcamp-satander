@@ -15,6 +15,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |-----|---------------|
 |Versionamento Com Git e Github|[Resumo](./versionamento-com-git-e-github/README.md)|
 |Introdução ao HTML e CSS |[Resumo](./introdução-html/README.md)|
+|Trabalhando com Web Components no Front-end |[Resumo](./angular/desafio-01/README.MD)|
 
 
 ## 🛠️ Projetos

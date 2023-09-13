@@ -19,6 +19,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Trabalhando com Web Components no Front-end |[Resumo](./angular/desafio-01/README.MD)|
 |TypeScript para Angular|[Resumo](./angular/typescript-para-angular/)|
 |Introdução ao Angular|[Resumo](./angular/introducao-ecosistema-angular/)|
+|LifeCycles Hooks Angular|[Resumo](./angular/lifecycle-hooks/)|
 
 
 ## 🛠️ Projetos

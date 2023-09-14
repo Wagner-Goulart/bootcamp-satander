@@ -20,7 +20,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |TypeScript para Angular|[Resumo](./angular/typescript-para-angular/)|
 |Introdução ao Angular|[Resumo](./angular/introducao-ecosistema-angular/)|
 |LifeCycles Hooks Angular|[Resumo](./angular/lifecycle-hooks/)|
-
+|Diretivas Angular|[Resumo](./angular/single-page-application-com-angular/diretivas-proj/)|
 
 ## 🛠️ Projetos
 

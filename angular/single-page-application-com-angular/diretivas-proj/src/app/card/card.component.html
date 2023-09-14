@@ -1,0 +1,39 @@
+<h1>My App</h1>
+<p *ngIf="true">card works!</p>
+<button>Olá Mundo</button>
+
+<ul>
+  <!-- let i recebe todos os index do array que está sendo iterado -->
+  <!-- E depois é impresso na tela com interporlação -->
+  <li *ngFor="let p of produtos; let i =index"
+  (click)='remover(i)'>{{ p }} - {{ i }}</li>
+  <button (click)="adicionar()">Adicionar</button>
+</ul>
+
+<!-- Property biding referenciando a propriedade menuType -->
+<!-- As opções do switchCase são envolvida em elemente pai que recebe esse binding -->
+<div [ngSwitch]="menuType">
+  <!-- Aqui vem os switchCases cada um com um tipo de usuário e suas opçoes de menu -->
+  <!-- switchCaseDefault indica que se o tipo de usário não for encontrado deve ser renderizar o padrão -->
+  <div *ngSwitchDefault="'user'">
+    <ul>
+      <li>Editar Perfil</li>
+      <li>Adiconar cartão</li>
+    </ul>
+  </div>
+  <div *ngSwitchCase="'admin'">
+    <ul>
+      <li>Editar Perfil</li>
+      <li>Adiconar cartão</li>
+      <li>Genranciar usuários</li>
+    </ul>
+  </div>
+  <div *ngSwitchCase="'superUser'">
+    <ul>
+      <li>Editar Perfil</li>
+      <li>Adiconar cartão</li>
+      <li>Genranciar usuários</li>
+      <li>Genrenciar Admins</li>
+    </ul>
+  </div>
+</div>

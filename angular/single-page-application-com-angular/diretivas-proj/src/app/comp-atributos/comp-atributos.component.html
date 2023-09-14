@@ -1,0 +1,55 @@
+<!-- propertu binding referencia a propriedade estilo que está no arquivo TS -->
+<p [ngClass]="estilo">comp-atributos works!</p>
+
+<!-- Botão com event binding que dispara o método trocar() que está no arquivo TS -->
+<button (click)="trocar()">trocar estilo</button>
+
+<!-- Property binding,
+Esse bindiing receber um objeto com as propriedades Css
+os valores estão vindo de forma dinamica do aqui TS -->
+<h1 [ngStyle]="{
+  'background': corFundo,
+  'color': corFonte
+}">Curso Angular</h1>
+
+<!-- ngContent é definido no componente pai
+o atributo select indica quais tags que estão
+dentro do component pai devem ser renderizadas -->
+<ng-Content select="h2, p"></ng-Content>
+
+<h1>Lista de compras</h1>
+<p>Adicione um item</p>
+
+<!-- Input receber o two-way data-binding referenciando
+a propriedade itens criada no arquivo TS -->
+<input type="text" [(ngModel)]="itens">
+<!-- Botão receber o event binding com o metodo
+adicionarLista criado no arquivo TS -->
+<button (click)="adicionarLista()">Adicionar</button>
+<!-- <p> redenriza o item enquando é digito através da interpolação -->
+<p>{{itens}}</p>
+
+<ul>
+  <!-- ngfor itera sobre o array e lista eles na tela -->
+  <li *ngFor="let elemento of lista">{{ elemento }}</li>
+</ul>
+
+<hr>
+
+<!-- ngTemplate é chamado como se
+fosse um componente normal -->
+
+<!--Não irá rederizar no tela, por padrão ele é false-->
+<ng-template>
+  <a href="#">Finalizar compra</a>
+</ng-template>
+<br>
+
+<!-- Esse irá renderizar na tela, pois
+o ngIf está alterando o comportamento padrão
+para true-->
+<ng-template [ngIf]="true">
+  <a href="#">Adicionar carrinho</a>
+</ng-template>
+
+<hr>

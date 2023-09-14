@@ -1,0 +1,16 @@
+
+<!-- app-comp-atributos está recebendo 2 componentes
+filhos, esses filhos não serão renderizados até que
+o ng-content seja definido no pai -->
+<app-comp-atributos>
+  <h2>Olé</h2> <!-- Não vai renderizar na tela -->
+  <p>estou dentro</p> <!-- Não vai renderizar na tela -->
+</app-comp-atributos>
+
+<app-card *ngIf="isAliveCard; else anotherBlock"></app-card>
+
+<ng-template #anotherBlock >
+  <p>Sou um bloco secreto</p>
+</ng-template>
+
+<router-outlet></router-outlet>

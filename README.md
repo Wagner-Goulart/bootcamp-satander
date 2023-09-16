@@ -21,6 +21,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Introdução ao Angular|[Resumo](./angular/introducao-ecosistema-angular/)|
 |LifeCycles Hooks Angular|[Resumo](./angular/lifecycle-hooks/)|
 |Diretivas Angular|[Resumo](./angular/single-page-application-com-angular/diretivas-proj/)|
+|Módulos Angular|[Resumo](./angular/modulos/)|
 
 ## 🛠️ Projetos
 

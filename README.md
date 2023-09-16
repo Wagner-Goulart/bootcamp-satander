@@ -8,6 +8,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 
 
 ## 📒 Resumos 
@@ -29,3 +30,4 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |-----|---------------|
 |Contribuindo em um Projeto Open Source no GitHub|[Repositório](https://github.com/Wagner-Goulart/dio-lab-open-source)|
 |Projeto Pokédex|[Repositório](https://github.com/Wagner-Goulart/pokedex-bootcamp-dio)|
+|Angular Blog|[Repositório](https://github.com/Wagner-Goulart/angular-blog)|

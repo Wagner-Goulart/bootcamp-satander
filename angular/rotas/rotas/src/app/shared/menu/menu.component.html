@@ -1,0 +1,24 @@
+<div>
+  <ul>
+    <!-- routerLinkActive
+    da a possibilidade de passar uma classe CSS para a rota
+    e carregar os estilos definidos nesse classe -->
+    <!-- routerLinkActiveOptions
+    indica que os estilos do routerLinkActive
+    serão adicionados somente a se rota for exatamento igual a que foi definida -->
+    <li>
+      <a
+        [routerLink]="['/']"
+        [routerLinkActive]="['activated']"
+        [routerLinkActiveOptions]="{exact:true}">
+      Home</a>
+    </li>
+    <li>
+      <a
+        [routerLink]="['/portifolio']"
+        [routerLinkActive]="['activated']"
+        >Portifolio</a
+      >
+    </li>
+  </ul>
+</div>

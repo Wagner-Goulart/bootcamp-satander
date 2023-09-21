@@ -24,6 +24,8 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Diretivas Angular|[Resumo](./angular/single-page-application-com-angular/diretivas-proj/)|
 |Módulos Angular|[Resumo](./angular/modulos/)|
 |Rotas|[Resumo](./angular/rotas/)|
+|Services|[Resumo](./angular/services/)|
+
 
 ## 🛠️ Projetos
 
@@ -32,3 +34,4 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Contribuindo em um Projeto Open Source no GitHub|[Repositório](https://github.com/Wagner-Goulart/dio-lab-open-source)|
 |Projeto Pokédex|[Repositório](https://github.com/Wagner-Goulart/pokedex-bootcamp-dio)|
 |Angular Blog|[Repositório](https://github.com/Wagner-Goulart/angular-blog)|
+|Angular PlayStation Store|[Repositório](./angular/projeto/angular-interface-playstation-store/)|

@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardComponent } from './components/card/card.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule // DEVE SER DECLARADO DENTRO DO IMPORTS PARA FUNCIONAR
+    HttpClientModule, // DEVE SER DECLARADO DENTRO DO IMPORTS PARA FUNCIONAR
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

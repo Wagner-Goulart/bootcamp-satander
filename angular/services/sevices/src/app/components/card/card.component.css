@@ -21,9 +21,15 @@
   width: 90%;
   margin: 0 auto;
   height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
+.card__body > img {
+  width: 100%;
+}
 .card__stats{
   padding-top: 10px;
   display: flex;

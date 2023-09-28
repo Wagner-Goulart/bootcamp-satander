@@ -37,3 +37,4 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Projeto Pokédex|[Repositório](https://github.com/Wagner-Goulart/pokedex-bootcamp-dio)|
 |Angular Blog|[Repositório](https://github.com/Wagner-Goulart/angular-blog)|
 |Angular PlayStation Store|[Repositório](./angular/projeto/angular-interface-playstation-store/)|
+|Contador em Java |[Repositório](./java/projetos/contador/)|

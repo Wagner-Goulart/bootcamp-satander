@@ -1,10 +1,58 @@
 package canditatura;
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
     public static void main(String[] args) {
         System.out.println("Processo seletivo");
-        selecaoCandidatos();
+        String [] candidatos = {"Wagner", "Liandra", "Natasha", "Pedro", "Felipe"};
+        for( String candidato : candidatos) {
+            entrandoEmContado(candidato);
+        }
+    }
+
+    static void entrandoEmContado(String canditado){
+        int tentativasRealizadas =1;
+        boolean continuarTentando = true;
+        boolean atendeu = false;
+
+        do {
+            atendeu = antender();
+            continuarTentando = !atendeu;
+
+            if(continuarTentando) {
+                tentativasRealizadas ++;
+            } else {
+                System.out.println("Contato relizado com sucesso");
+            }
+
+        } while( continuarTentando && tentativasRealizadas < 3);
+
+        if(atendeu) {
+            System.out.println("Conseguimos com com " + canditado + " na " + tentativasRealizadas + " tentativa");
+        } else {
+            System.out.println("Não conseguimos contato com " + canditado + " no numero máximo de tentativas");
+        }
+    }
+
+    static boolean antender(){
+        return new Random().nextInt(3)==1;
+    }
+
+    static void imprimirSelecionados() {
+         String [] candidatos = {"Wagner", "Liandra", "Natasha", "Pedro", "Felipe"};
+
+         System.out.println("Imprimindo a lista de candidatos informando o indice do elemento");
+
+         for(int indice = 0 ; indice < candidatos.length; indice++){
+            System.out.println("O candidato de número " + (indice +1 ) + " é " + candidatos[indice]);
+         }
+
+         System.out.println("Forma abreviada de interação For each");
+
+         for(String candidato : candidatos) {
+            System.out.println("Candidato selecionado foi " + candidato);
+         }
     }
 
     static void analisarCandidato(double salarioPretendido) {

@@ -28,6 +28,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Services|[Resumo](./angular/services/)|
 |Sintaxe JAVA|[Resumo](./java/sintaxe-basica/README.md)|
 |Controle de fluxos - JAVA|[Resumo](./java/controle-de-fluxo/README.md)|
+|Fundamento orientação a Objetos - JAVA|[Resumo](./java/fundamentos-POO/exemplo-de-pacotes/README.md)|
 
 ## 🛠️ Projetos
 

@@ -29,7 +29,9 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Sintaxe JAVA|[Resumo](./java/sintaxe-basica/README.md)|
 |Controle de fluxos - JAVA|[Resumo](./java/controle-de-fluxo/README.md)|
 |Fundamento orientação a Objetos - JAVA|[Resumo](./java/fundamentos-POO/exemplo-de-pacotes/README.md)|
-
+|Pilares POO- JAVA|[Resumo](./java/pilares-poo/README.md)|
+|Collections- JAVA|[Resumo](./java/collections/README.md)|
+git a
 ## 🛠️ Projetos
 
 | Aulas | Projetos |

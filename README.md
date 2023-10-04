@@ -31,7 +31,8 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Fundamento orientação a Objetos - JAVA|[Resumo](./java/fundamentos-POO/exemplo-de-pacotes/README.md)|
 |Pilares POO- JAVA|[Resumo](./java/pilares-poo/README.md)|
 |Collections- JAVA|[Resumo](./java/collections/README.md)|
-git a
+|Stream API- JAVA|[Resumo](./java/stream-api/README.md)|
+
 ## 🛠️ Projetos
 
 | Aulas | Projetos |

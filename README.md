@@ -42,3 +42,4 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Angular Blog|[Repositório](https://github.com/Wagner-Goulart/angular-blog)|
 |Angular PlayStation Store|[Repositório](./angular/projeto/angular-interface-playstation-store/)|
 |Contador em Java |[Repositório](./java/projetos/contador/)|
+|Diagrama UML de Classes Iphone |[Repositório](./java/projetos/diagramacao-classes-iphone/README.md)|

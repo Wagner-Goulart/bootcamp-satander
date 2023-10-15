@@ -32,6 +32,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Pilares POO- JAVA|[Resumo](./java/pilares-poo/README.md)|
 |Collections- JAVA|[Resumo](./java/collections/README.md)|
 |Stream API- JAVA|[Resumo](./java/stream-api/README.md)|
+|MAVEN - JAVA|[Resumo](./java/maven/README.md)|
 
 ## 🛠️ Projetos
 

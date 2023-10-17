@@ -33,6 +33,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Collections- JAVA|[Resumo](./java/collections/README.md)|
 |Stream API- JAVA|[Resumo](./java/stream-api/README.md)|
 |MAVEN - JAVA|[Resumo](./java/maven/README.md)|
+|Testes com JUnit - JAVA|[Resumo](./java/junit/README.md)|
 
 ## 🛠️ Projetos
 
@@ -44,3 +45,4 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Angular PlayStation Store|[Repositório](./angular/projeto/angular-interface-playstation-store/)|
 |Contador em Java |[Repositório](./java/projetos/contador/)|
 |Diagrama UML de Classes Iphone |[Repositório](./java/projetos/diagramacao-classes-iphone/README.md)|
+|Explorando Padrões de Projetos na Prática com Java |[Repositório](./java/projetos/padroes-projetos-com-java/)|

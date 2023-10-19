@@ -34,6 +34,7 @@ Repositório para guarda das aulas exercicíos do bootcamp
 |Stream API- JAVA|[Resumo](./java/stream-api/README.md)|
 |MAVEN - JAVA|[Resumo](./java/maven/README.md)|
 |Testes com JUnit - JAVA|[Resumo](./java/junit/README.md)|
+|Spring Boot - JAVA|[Resumo](./java/spring-boot/README.md)|
 
 ## 🛠️ Projetos
 
